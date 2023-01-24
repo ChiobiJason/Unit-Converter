@@ -1,3 +1,90 @@
 body {
-    margin: 0;
+  margin: 0;
+}
+
+header {
+  background: #6943ff;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header > h1 {
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+header > input {
+  background: transparent;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  width: 117px;
+  height: 83px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+header > button {
+  width: 117px;
+  height: 42px;
+  background: #ffffff;
+  border: 0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3d3d3d;
+}
+
+main {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conversion-container {
+  width: 500px;
+  height: 108.57px;
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+  margin: 12px 0;
+  text-align: center;
+}
+
+.conversion-container > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #5a537b;
+}
+
+.conversion-container > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #353535;
 }
